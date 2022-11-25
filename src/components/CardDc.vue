@@ -41,10 +41,8 @@ export default {
         width: 200px;
         color: black;
     }
-
     h2 {
         font-size: 12px;
     }
 }
-
 </style>
