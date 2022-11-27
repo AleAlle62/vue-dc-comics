@@ -7,6 +7,9 @@
       :cartella=" objDc"
       class="card-dc"
       />
+      <div class="see-more">
+        <p>SEE MORE</p>
+      </div>
     </div>
     <div class="container-blu">
       <div class="ima">
@@ -161,7 +164,7 @@ export default {
 <style lang="scss" scoped>
 .container-nero {
   background-color: black;
-  height: 70vh;
+  height: 100vh;
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -170,6 +173,17 @@ export default {
   padding: 0 1rem;
   .card-dc {
     flex: 0 0 25%;
+  }
+  .see-more {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      padding: 1em;
+      background-color: rgba(2, 130, 249, 255);
+    }
   }
 }
 
